@@ -8,3 +8,41 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
+.page {
+	background-color: white;
+}
+
+.content {
+	background-color: blue;
+	margin-left: 25%;
+	margin-right: 25%;
+	float: right;
+	z-index: 1;
+	padding-left: 50px;
+}
+
+.main {
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 75px;
+	background-color: white;
+}
+
+.iphone {
+	margin-top: -500px;
+}
+ul {
+	text-align: center;
+}
+ul > li {
+	display: inline-block; 
+	text-align: center;
+
+}
+
+.android {
+	position: absolute;
+	top: 435px;
+	left: 750px;
+}
