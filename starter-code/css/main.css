@@ -11,38 +11,64 @@ body {
 
 .page {
 	background-color: white;
+	display: inline-block;
 }
 
 .content {
-	background-color: blue;
-	margin-left: 25%;
-	margin-right: 25%;
+	background-color: #007bb5;
+	margin-left: 23%;
+	margin-right: 16%;
 	float: right;
 	z-index: 1;
 	padding-left: 50px;
+	height: 29%;
+	width: 92%;
+}
+
+.content h1 {
+	text-align: center;
+	
 }
 
 .main {
 	text-align: left;
 	padding-top: 20px;
-	padding-left: 75px;
 	background-color: white;
+	display: inline-block;
+	margin-bottom: -97px;
+	margin-left: 41%;
 }
 
 .iphone {
-	margin-top: -500px;
+	margin-top: 100px;
+	margin-left: 41%;
+	
+
 }
+
 ul {
 	text-align: center;
 }
+
 ul > li {
 	display: inline-block; 
 	text-align: center;
 
 }
+.product-photo {
+	margin: 10%;
+	position: absolute; 
+	right: 526px; 
+	width: 28%;
+
+}
 
 .android {
-	position: absolute;
-	top: 435px;
-	left: 750px;
+	position: fixed;
+	top: 447px;
+	left: 482px;
+}
+
+.footer {
+	margin-top: 65%; 
 }
